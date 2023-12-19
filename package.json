@@ -1,0 +1,29 @@
+{
+  "name": "with-fastfy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/serve.ts",
+    "lint": "eslint src --ext .ts --fix",
+    "knex": "node --no-warnings --loader tsx ./node_modules/.bin/knex"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.10.5",
+    "eslint": "^8.56.0",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.2.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.25.1",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.22.4"
+  }
+}
